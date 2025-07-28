@@ -2,8 +2,8 @@
 A script which takes in a cryptocurrency address hash, retrieves details such as balance, whether it's a smart contract and its transaction count in Ethereum mainnet and saves it to a CSV file.
 
 ### Prerequisites
-Python 3.x installed (preferably 3.6+)
-pip package installer available
+- Python 3.x installed (preferably 3.6+)
+- pip package installer available
 
 ### Installation
 
