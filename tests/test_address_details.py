@@ -21,7 +21,7 @@ def test_address_details():
     assert contract['is_smart_contract'] == True
 
     # Test with standard address
-    address = retrieve_address_details("0x1BBc3C2E674C26264C08Bbd8a7911C404d4E3aFB")
+    address = retrieve_address_details("0xDC4939aD0cC5A640E03593428eE2DE906D89e98D")
     print(address)
     assert address['is_smart_contract'] == False
 
@@ -29,7 +29,7 @@ def test_address_details():
 def test_save_to_csv():
 
     # Check file is saved
-    address = "0x1BBc3C2E674C26264C08Bbd8a7911C404d4E3aFB"
+    address = "0xDC4939aD0cC5A640E03593428eE2DE906D89e98D"
     address_det = retrieve_address_details(address)
     save_to_csv(address_det)
 
