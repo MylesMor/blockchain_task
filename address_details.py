@@ -58,7 +58,10 @@ def save_to_csv(address_details: object) -> None:
     os.makedirs('data', exist_ok=True)
 
     df = pd.DataFrame([address_details])
-    df.to_csv(f"./data/{address_details['address']}_details.csv", index=False)
+    filename = f"./data/{address_details['address']}_details.csv"
+    df.to_csv(filename, index=False)
+
+    print("Address details saved to CSV file:", filename)
 
 
 
