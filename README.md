@@ -1,4 +1,4 @@
-#### Ethereum Address Details Retriever
+## Ethereum Address Details Retriever
 A script which takes in a cryptocurrency address hash, retrieves details such as balance, whether it's a smart contract and its transaction count in Ethereum mainnet.
 
 ### Prerequisites
